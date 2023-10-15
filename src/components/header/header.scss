@@ -1,0 +1,26 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header__item a:hover {
+    color: rgb(158, 135, 50);
+}
