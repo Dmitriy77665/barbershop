@@ -5,6 +5,7 @@ import Header from './components/header/Header.jsx'
 import Title from './components/main/Title.jsx'
 import Content from './components/content/Content.jsx'
 import Services from './components/services/services.jsx'
+import OurBarbers from './components/ourBarbers/OurBrabers.jsx'
 
 import './components/style/global.scss'
 
@@ -14,5 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Title />
     <Content />
     <Services />
+    <OurBarbers />
   </React.StrictMode>,
 )
