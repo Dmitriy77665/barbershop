@@ -1,0 +1,42 @@
+.services {
+    height: 800px;
+    background-image: url(./../img//services.jpeg);
+    background-size: 100%;
+    width: 100%;
+    padding-top: 140px;
+
+    &__title {
+        font-size: 60px;
+        color: rgb(158, 135, 50);
+        margin-bottom: 100px;
+    }
+
+    &__buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        flex: 0 1 calc(33.3% - 10px);
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    &__btn {
+        width: 300px;
+        height: 100px;
+        background-color: rgb(158, 135, 50);
+        border-radius: 50px;
+        opacity: 0.8;
+        font-size: 25px;
+    }
+        &__btn:hover {
+            opacity: 1;
+            background-color: rgb(158, 135, 50);
+        }
+    &__descr {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+}

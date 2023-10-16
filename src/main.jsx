@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom'
 import Header from './components/header/Header.jsx'
 import Title from './components/main/Title.jsx'
 import Content from './components/content/Content.jsx'
+import Services from './components/services/services.jsx'
 
 import './components/style/global.scss'
 
@@ -12,5 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Header />
     <Title />
     <Content />
+    <Services />
   </React.StrictMode>,
 )
