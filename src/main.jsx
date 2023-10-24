@@ -6,8 +6,13 @@ import Title from './components/main/Title.jsx'
 import Content from './components/content/Content.jsx'
 import Services from './components/services/services.jsx'
 import OurBarbers from './components/ourBarbers/OurBrabers.jsx'
+import Career from './components/carrer/Career.jsx'
+import Contacts from './components/contacts/Contacts.jsx'
+import Footer from './components/footer/Footer.jsx'
 
 import './components/style/global.scss'
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -16,5 +21,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Content />
     <Services />
     <OurBarbers />
+    <Career />
+    <Contacts />
+    <Footer />
   </React.StrictMode>,
 )

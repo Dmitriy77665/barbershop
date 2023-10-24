@@ -1,0 +1,36 @@
+.career {
+    background-color: #f6f6f6;
+    text-align: center;
+    &__title {
+        font-size: 60px;
+        color: rgb(158, 135, 50);
+        margin-bottom: 50px;
+    }
+    &__devider::after {
+        content: "______________________";
+        color: #e6e8ea;
+        position: relative;
+        bottom: 6px;
+        padding-left: 10px;
+    }
+
+    &__devider::before {
+        content: "______________________";
+        color: #e6e8ea;
+        position: relative;
+        bottom: 6px;
+        padding-right: 10px;
+    }
+    &__descr {
+        text-align: left;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 16px;
+    }
+    &__descr_up {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+}

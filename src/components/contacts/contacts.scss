@@ -1,0 +1,44 @@
+.contacts {
+    text-align: center;
+    padding-bottom: 50px;
+    &__title {
+        font-size: 60px;
+        color: rgb(158, 135, 50);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    &__devider::after {
+        content: "______________________";
+        color: #e6e8ea;
+        position: relative;
+        bottom: 6px;
+        padding-left: 10px;
+    }
+
+    &__devider::before {
+        content: "______________________";
+        color: #e6e8ea;
+        position: relative;
+        bottom: 6px;
+        padding-right: 10px;
+    }
+    &__descr {
+        display: flex;
+        max-width: 1200px;
+        padding-top: 50px;
+        margin: 0 auto;
+        text-align-last: left;
+        justify-content: space-between;
+    }
+    &__descr h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    &__descr p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+     &__descr a {
+        color: rgb(158, 135, 50);
+     }
+}
