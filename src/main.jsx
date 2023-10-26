@@ -1,28 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 
-import Header from './components/header/Header.jsx'
-import Title from './components/main/Title.jsx'
-import Content from './components/content/Content.jsx'
-import Services from './components/services/services.jsx'
-import OurBarbers from './components/ourBarbers/OurBrabers.jsx'
-import Career from './components/carrer/Career.jsx'
-import Contacts from './components/contacts/Contacts.jsx'
-import Footer from './components/footer/Footer.jsx'
+import App from './components/App';
 
-import './components/style/global.scss'
+import './components/style/global.scss';
 
-
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
-    <Title />
-    <Content />
-    <Services />
-    <OurBarbers />
-    <Career />
-    <Contacts />
-    <Footer />
-  </React.StrictMode>,
-)
+    <App />
+  </React.StrictMode>
+);

@@ -1,7 +1,7 @@
 
 import './services.scss'
 
-const servicesPrice = [
+ const servicesPrice = [
     {
         id: 1,
         name: 'Men’s haircut',
@@ -54,17 +54,21 @@ const Services = () => {
 
     return (
         <div className="services">
-            <h2 className='services__title'>Services</h2>
-            <div className="services__buttons">
-                {servicesPrice.map(service => (
-                    <div className="services__item" key={service.id}>
-                        <button className='services__btn'>{service.name}<p className='services__descr'>{service.price} $</p></button>
+            <div className='container'>
+                <h2 className='services__title'>Services</h2>
+                <div className="services__buttons">
+                    {servicesPrice.map(service => (
+                        <div className="services__item" key={service.id}>
+                            <button className='services__btn'>{service.name}<p className='services__descr'>{service.price} $</p></button>
 
-                    </div>
-                ))}
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     )
 }
 
 export default Services
+// eslint-disable-next-line react-refresh/only-export-components
+export {servicesPrice};

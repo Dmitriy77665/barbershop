@@ -74,9 +74,8 @@ li {
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 section {
