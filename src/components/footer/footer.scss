@@ -3,6 +3,9 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
     &__icons {
         display: flex;
         gap: 100px;

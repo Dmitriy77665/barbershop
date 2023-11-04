@@ -1,8 +1,8 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import { servicesPrice } from './../services/services'
 import logo from '../img/logo.png'
-
 import './header.scss'
 
 const Header = () => {
@@ -20,10 +20,10 @@ const Header = () => {
     return (
         <div className="header">
             <div>
-                <img className='header__logo' src={logo} alt="logo"/>
+                <Link to='/'><img className='header__logo' src={logo} alt="logo"/></Link>
             </div>
             <div className="header__item">
-                <a href="">Barbershop</a>
+                <Link to='/'>Barbershop</Link>
                 <a  href="#services" 
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
@@ -40,8 +40,8 @@ const Header = () => {
                     </ul>
 
                 )}
-                <a href="">School</a>
-                <a href="#contacts">Contacts</a>
+                <Link to='/school'>School</Link>
+                <Link to='/contact'>Contacts</Link>
             </div>
         </div>
     )

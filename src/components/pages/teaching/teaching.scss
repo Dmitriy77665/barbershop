@@ -1,0 +1,41 @@
+.teaching {
+    padding-top: 100px;
+    background-image: url(./../../img/school.jpeg);
+    width: 100%;
+    height: 800px;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    &__title {
+        font-size: 36px;
+        color: rgb(158, 135, 50);
+        padding-bottom: 10px;
+    }
+    &__devider::after {
+        content: "_______";
+        color: #fff;
+        position: relative;
+        bottom: 6px;
+        padding-left: 10px;
+    }
+
+    &__devider::before {
+        content: "_______";
+        color: #fff;
+        position: relative;
+        bottom: 6px;
+        padding-right: 10px;
+    }
+    &__descr {
+        padding-top: 70px;
+    }
+    &__photo {
+        padding-top: 50px;
+        display: flex;
+        img {
+            height: 300px;
+            width: 500px;
+            margin: 0 auto;
+        }
+    }
+}

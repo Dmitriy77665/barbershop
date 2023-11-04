@@ -8,11 +8,12 @@ import OurBarbers from './ourBarbers/OurBrabers.jsx';
 import Career from './carrer/Career.jsx';
 import Contacts from './contacts/Contacts.jsx';
 import Footer from './footer/Footer.jsx';
+import School from './pages/school/School.jsx';
+import Contact from './pages/contact/Contact.jsx';
 
 const MainPage = () => {
   return (
     <div>
-      <Header />
       <Title />
       <Content />
       <Services />
@@ -27,9 +28,14 @@ const MainPage = () => {
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-      </Routes>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/school" element={<School />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 };
