@@ -8,7 +8,7 @@ const Teaching = () => {
         <div className='teaching'>
             <div className='container'>
                 <h2 className='teaching__title'>Teaching</h2>
-                 <div className='teaching__devider'>
+                <div className='teaching__devider'>
                     <i></i>
                 </div>
                 <p className='teaching__descr'>

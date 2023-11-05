@@ -5,47 +5,56 @@ import './services.scss'
     {
         id: 1,
         name: 'Men’s haircut',
-        price: 50
+        price: 50,
+        url: '/men’s-haircut'
     },
     {
         id: 2,
         name: 'Black mask',
-        price: 30
+        price: 30,
+        url: '/black-mask'
     },
     {
         id: 3,
         name: 'Beard trim',
-        price: 30
+        price: 30,
+        url: '/beard-trim'
     },
     {
         id: 4,
         name: 'Headshave',
-        price: 50
+        price: 50,
+        url: '/headshave'
     },
     {
         id: 5,
-        name: 'Straight razor shave',
-        price: 35
+        name: 'Straight chester shave',
+        price: 35,
+        url: '/straight-chester-shave'
     },
     {
         id: 6,
         name: 'Camouflage',
-        price: 80
+        price: 80,
+        url: '/camouflage'
     },
     {
         id: 7,
-        name: 'Children’s haircutt',
-        price: 45
+        name: 'Children’s haircut',
+        price: 45,
+        url: '/children’s-haircut'
     },
     {
         id: 8,
         name: 'Fether + Son',
-        price: 75
+        price: 75,
+        url: '/father+son'
     },
     {
         id: 9,
         name: 'Hairstyle',
-        price: 15
+        price: 15,
+        url: '/hairstyle'
     },
 ]
 

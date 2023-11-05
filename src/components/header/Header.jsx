@@ -34,7 +34,7 @@ const Header = () => {
                     onMouseLeave={handleMouseLeave}>
                         {servicesPrice.map(service => (
                         <li className='header__services_item' key={service.name}>
-                            <a href="" >{service.name}</a>
+                            <Link to={service.url}>{service.name}</Link>
                         </li>
                         ))}
                     </ul>

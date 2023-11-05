@@ -10,6 +10,15 @@ import Contacts from './contacts/Contacts.jsx';
 import Footer from './footer/Footer.jsx';
 import School from './pages/school/School.jsx';
 import Contact from './pages/contact/Contact.jsx';
+import Hairstyle from './pages/hairstyle/Hairstyle.jsx';
+import MensHaircut from './pages/mensHaircut/MensHaircut.jsx';
+import BlackMask from './pages/blackMask/BlackMask.jsx';
+import BeardTrim from './pages/beardTrim/BeardTrim.jsx';
+import HeadShave from './pages/headshave/HeadShave.jsx';
+import StraightChesterShave from './pages/straightChesterShave/StraightChesterShave.jsx';
+import Camouflage from './pages/camouflage/Camouflage.jsx';
+import ChildrenHaircut from './pages/childrenHaircut/ChildrenHaircut.jsx';
+import FatherSon from './pages/fatherSon/FatherSon.jsx';
 
 const MainPage = () => {
   return (
@@ -34,6 +43,15 @@ const App = () => {
           <Route path="/" element={<MainPage />} />
           <Route path="/school" element={<School />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/men’s-haircut' element={<MensHaircut />} />
+          <Route path='/black-mask' element={<BlackMask />} />
+          <Route path='/beard-trim' element={<BeardTrim />} />
+          <Route path='/headshave' element={<HeadShave />} />
+          <Route path='/straight-chester-shave' element={<StraightChesterShave />} />
+          <Route path='/camouflage' element={<Camouflage />} />
+          <Route path='/children’s-haircut' element={<ChildrenHaircut />} />
+          <Route path='/father+son' element={<FatherSon />} />
+          <Route path='/hairstyle' element={<Hairstyle />} />
         </Routes>
       </div>
     </BrowserRouter>
